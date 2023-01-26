@@ -3,7 +3,9 @@ h1 {color: black;;
     font-weight: 800;
     font-style: bold;
     text-align: center;
-    background-color: rgba(0, 255, 128, 0.925);}
+    background-color: rgba(0, 255, 128, 0.925);
+    text-shadow: 10px;
+}
 
 
 h2 {color: black;
@@ -21,6 +23,14 @@ h3 {color: black;
     text-align: center;
     background-color: rgba(0, 255, 128, 0.925);}
 
+h4 {color: black;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
 
 p {color: blue;}
 p {color: black;}
@@ -29,13 +39,33 @@ body {
     background-color: rgba(26, 77, 100, 0.973);
 }
 
+.cornwall {
+    width: 49%;
+    height: 100%;
+    padding: 10px;
+}
+
+.cornwall2 {
+    width: 49%;
+    height: 100%;}
+
+.auckland {
+    width: 49%;
+    height: 100%;
+    padding: 10px;}
+
+.stockholm {
+    width: 49%;
+    height: 100%;}
+
+
 img {
     border-width: 5px;
     border-style: solid;
     border-color: rgba(0, 255, 128, 0.925);
-    border-radius: 50%;
+    border-radius: 10px;
     box-shadow: 10px 10px 20px black;
-}
+    box-sizing: border-box;}
 
 .textbox1 {
     background-color: rgba(0, 255, 128, 0.925);
@@ -44,7 +74,7 @@ img {
     height: 200px;
     width: 200px;
     padding: 5px;
-    margin: 5px;
+    margin: 5px, auto;
     border: 5px; 
     border-style: solid; 
     border-color: black;  
