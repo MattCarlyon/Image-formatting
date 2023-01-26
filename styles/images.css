@@ -4,7 +4,6 @@ h1 {color: black;;
     font-style: bold;
     text-align: center;
     background-color: rgba(0, 255, 128, 0.925);
-    text-shadow: 10px;
 }
 
 
@@ -28,8 +27,7 @@ h4 {color: black;
     font-weight: 800;
     font-style: bold;
     text-align: center;
-    text-decoration: underline;
-}
+    text-decoration: underline;}
 
 
 p {color: blue;}
@@ -71,8 +69,9 @@ img {
     background-color: rgba(0, 255, 128, 0.925);
     display: inline-block;
     vertical-align: top;
+    text-align: center;
     height: 200px;
-    width: 200px;
+    width: 100%;
     padding: 5px;
     margin: 5px, auto;
     border: 5px; 
