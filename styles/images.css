@@ -1,3 +1,12 @@
+.site-name {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+
 h1 {color: black;;
     font-size: 40px;
     font-weight: 800;
@@ -77,7 +86,12 @@ img {
     border: 5px; 
     border-style: solid; 
     border-color: black;  
-    
-    
+    font-family: 'Open Sans', sans-serif;
+    /*letter-spacing: 5px;*/
+    /*line-height: 2;*/
+    /*word-spacing: 5px;*/  
+}
 
+.fa-face-grin-wide {
+    color:  rgba(26, 77, 100, 0.973);
 }
